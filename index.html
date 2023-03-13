@@ -5,9 +5,10 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>Moch Ihsan Saepulloh</title>
+  <title id="titleWeb">Moch Ihsan Saepulloh</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
+  <meta name="google-site-verification" content="Hti39cZ9oOmJPhjOLfrKanNphv_g58Nqe4NUq-WGT1I" />
 
   <!-- Google Fonts -->
   <link
@@ -31,6 +32,16 @@
   * Author: BootstrapMade.com
   * License: https://bootstrapmade.com/license/
   ======================================================== -->
+
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-ZKMD732QZB"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-ZKMD732QZB');
+  </script>
 </head>
 
 <body>
@@ -43,14 +54,13 @@
 
     <nav id="navbar" class="navbar nav-menu">
       <ul>
-        <li><a href="#hero" class="nav-link scrollto active"><i class="bx bx-home"></i> <span>Home</span></a></li>
-        <li><a href="#about" class="nav-link scrollto"><i class="bx bx-user"></i> <span>About</span></a></li>
-        <li><a href="#skills  " class="nav-link scrollto"><i class="bx bx-bar-chart-alt-2"></i> <span>Skills</span></a></li>
-        <li><a href="#resume" class="nav-link scrollto"><i class="bx bx-book-content"></i> <span>Resume</span></a></li>
-        <li><a href="#portfolio" class="nav-link scrollto"><i class="bx bx-devices"></i> <span>Portfolio</span></a>
-        </li>
+        <li><a href="#hero" class="nav-link scrollto active" onclick="$('#titleWeb').html('Moch Ihsan Saepulloh')"><i class="bx bx-home"></i> <span>Home</span></a></li>
+        <li><a href="#about" class="nav-link scrollto" onclick="$('#titleWeb').html('Moch Ihsan Saepulloh | About')"><i class="bx bx-user"></i> <span>About</span></a></li>
+        <li><a href="#skills  " class="nav-link scrollto" onclick="$('#titleWeb').html('Moch Ihsan Saepulloh | Skills')"><i class="bx bx-bar-chart-alt-2"></i> <span>Skills</span></a></li>
+        <li><a href="#resume" class="nav-link scrollto" onclick="$('#titleWeb').html('Moch Ihsan Saepulloh | Resume')"><i class="bx bx-book-content"></i> <span>Resume</span></a></li>
+        <li><a href="#portfolio" class="nav-link scrollto" onclick="$('#titleWeb').html('Moch Ihsan Saepulloh | Portofolio')"><i class="bx bx-devices"></i> <span>Portfolio</span></a></li>
         <!-- <li><a href="#contact" class="nav-link scrollto"><i class="bx bx-server"></i> <span>Services</span></a></li> -->
-        <li><a href="#contact" class="nav-link scrollto"><i class="bx bx-envelope"></i> <span>Contact</span></a></li>
+        <li><a href="#contact" class="nav-link scrollto" onclick="$('#titleWeb').html('Moch Ihsan Saepulloh | Contact')"><i class="bx bx-envelope"></i> <span>Contact</span></a></li>
       </ul>
     </nav><!-- .nav-menu -->
 
@@ -544,6 +554,7 @@
   <!-- Vendor JS Files -->
   <script src="vendor/purecounter/purecounter.js"></script>
   <script src="vendor/aos/aos.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"></script>
   <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
   <script src="vendor/glightbox/js/glightbox.min.js"></script>
   <script src="vendor/isotope-layout/isotope.pkgd.min.js"></script>
